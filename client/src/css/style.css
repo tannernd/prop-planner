@@ -1,0 +1,147 @@
+.modal-dialog {
+    max-width: 90%;
+  }
+
+  .modal-dialog-small {
+    max-width: 500px;
+  }
+
+  .modal-dialog-slideout {
+    min-height: 100%;
+    margin: 0 0 0 auto;
+    background: #fff;
+  }
+  .modal.fade .modal-dialog.modal-dialog-slideout {
+    -webkit-transform: translate(100%, 0)scale(1);
+    transform: translate(100%, 0)scale(1);
+  }
+  .modal.fade.show .modal-dialog.modal-dialog-slideout {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    display: flex;
+    align-items: stretch;
+    -webkit-box-align: stretch;
+    height: 100%;
+  }
+  .modal.fade.show .modal-dialog.modal-dialog-slideout .modal-body {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .modal-dialog-slideout .modal-content {
+    border: 0;
+  }
+  .modal-dialog-slideout .modal-header,
+  .modal-dialog-slideout .modal-footer {
+    height: 4rem;
+    display: block;
+  }
+
+  input:read-only {
+    background-color: rgb(194, 193, 193);
+  }
+.h-flex {
+display: flex;
+}
+.h2-flex{
+    justify-content: space-between;
+}
+.logo-img{
+    size: auto;
+}
+/* .nav{
+    max-height: 50px;
+} */
+.au-padding{
+    padding: 70px;
+}
+.sign-in-card{
+    max-width: 300px;
+}
+.s-card{
+padding: 20px;
+}
+/* .nav-c{
+  color: #ffffff;
+} */
+.img-bar{
+  width: 100vw;
+  height: 75vw;
+  display: flex;
+  justify-content: center;
+}
+
+/* Nav */
+header {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  width: 1500px;
+}
+
+.logo {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav .nav-link {
+  display: inline;
+  text-decoration: none;
+  border: none;
+  fill: none;
+  padding: 0 0.5rem;
+}
+
+nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1500px) {
+  nav {
+    width: 90vw;
+  }
+}
+
+/* Restyle Chosen.js */
+
+.active-result {
+  color: #dee2e6 !important;
+}
+
+.chosen-container-single .chosen-single {
+  color: #dee2e6 !important;
+  height: auto !important;
+  border: 1px solid #495057;
+  border-radius: 5px;
+  background: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  padding: 0.5em;
+}
+
+.chosen-container .chosen-drop {
+  background: #212529 !important;
+}
+
+.card {
+  margin-bottom: 1rem;
+}
+
+/* General Style overrides */
+
+.modal-dialog {
+  background: #212529;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    padding-top: 0 !important;
+  }
+}

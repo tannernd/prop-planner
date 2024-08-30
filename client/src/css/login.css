@@ -1,0 +1,41 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.card {
+    background: #181b1d;
+    border: 1px solid #30363b;
+    display: inline-block;
+    text-align: center;
+    width: 25rem;
+    padding: 3rem;
+
+    -webkit-box-shadow: 0 0 1rem 0 rgba(0,0,0,.25);
+            box-shadow: 0 0 1rem 0 rgba(0,0,0,.25);
+}
+
+h2 {
+    padding: 2rem;
+}
+
+div {
+    padding: 1rem;
+}
+
+input {
+    background: none;
+    border: 1px solid #30363b;
+    border-radius: 3px;
+    /* color: #000; */
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+button {
+    width: 100%;
+    margin-bottom: 1rem;
+}

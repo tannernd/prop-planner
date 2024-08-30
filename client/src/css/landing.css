@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400&family=Inter&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    padding-top: 2rem;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.25) 0%, rgba(9, 9, 121, 0.25) 35%, rgba(0, 212, 255, 0.25) 100%);
+}
+
+main {
+    overflow-x: hidden;
+    font-family: Inter;
+    padding-top: 10rem;
+}
+
+.wrapper-splash {
+    position: relative;
+    display: flex;
+    height: 45rem;
+    overflow: hidden;
+}
+
+.banner svg {
+    margin-bottom: -2rem;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+
+.mainline {
+    display: flex;
+    justify-content: center;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    background: #101214;
+    padding: 5rem;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+#down-arrow-img {
+    width: 3rem;
+}
+
+#down-arrow-img:hover {
+    cursor: pointer;
+}
+
+.footer {
+    background: #101214;
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+    padding-bottom: 6rem;
+}
+
+.legal-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+}
+
+.footer-link-list {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+}
+
+.footer-link-list p {
+    margin-bottom: 0.5em;
+}
+
+.footer-link-list a {
+    text-decoration: none;
+    color: #dee2e6;
+}
+
+.footer-link-list a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media screen and (max-width: 1000px) {
+    .wrapper-splash {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #report-img {
+        display: none;
+    }
+    .banner {
+        width: 90vw;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    .footer {
+        font-size: 0.75rem;
+        padding: 4rem 1rem;
+    }
+}
